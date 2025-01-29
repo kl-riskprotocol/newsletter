@@ -86,7 +86,7 @@ def get_crypto_metrics(limit=20):
                 hist_params = {
                     'vs_currency': 'usd',
                     'days': 365,
-                    'interval': 'daily'
+                    'interval': 'hourly'
                 }
                 
                 try:
@@ -153,7 +153,7 @@ def get_crypto_metrics(limit=20):
                 hist_params = {
                     'vs_currency': 'usd',
                     'days': 365,
-                    'interval': 'daily'
+                    'interval': 'hourly'
                 }
                 
                 try:
